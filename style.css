@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:wght@300;900&family=Nunito:wght@600&family=Pinyon+Script&family=Poppins:wght@100;300&family=Roboto:wght@500&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+/*BACKGROUND IMAGE*/
+body{
+    background-image: url(images/desktop-wallpaper-cinema-background-with-movie-objects-vector-1823382-cinema-screen.jpg);
+    background-color: rgba(21, 56, 95, 0.575);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.fondo{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(1, 6, 12, 0.849);
+}
+
+/*TITLE*/
+.title{
+    text-align: center;
+    color: white;
+    font-size: 46px;
+    font-weight: 900px;
+    text-shadow: 3px 3px 20px rgb(0, 0, 0);
+    padding-top: 40px;
+    text-transform: capitalize;
+}
+#title-acent{
+    color: rgb(0, 132, 255);
+}
