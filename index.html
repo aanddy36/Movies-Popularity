@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2bc7894ad3.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="fondo">
         <h1 class="title">Most populars <span id="title-acent">movies</span> today</h1>
         <div class="decision">
-            <button class="btn-movies selected-btn">Movies</button><button class="btn-actors">Actors</button>
+            <button class="movie selected-btn">Movies</button><button class="person">Actors</button>
         </div>
         <div class="content">
             <div class="movies">
@@ -23,6 +24,11 @@
                 <img src="images/cinema.jpg" class="movies-image">
                 <h1 class="movies-titles">Gatos</h1>
             </div>
+        </div>
+        <div class="pages">
+            <button class="btn-page prior"><i class="fa-solid fa-circle-chevron-left" style="color: #ffdd1b;"></i></button>
+            <button class="btn-page current"><p>1</p></button>
+            <button class="btn-page next"><i class="fa-solid fa-circle-chevron-right" style="color: #ffdd1b;"></i></button>
         </div>
     </div>
     <script src="app.js"></script>
